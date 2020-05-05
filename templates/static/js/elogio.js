@@ -1,7 +1,7 @@
 function gerarElogio()
 {
      var min = Math.ceil(1);
-    var max = Math.floor(12);
+    var max = Math.floor(21);
     var a = Math.floor(Math.random() * (max - min)) + min;
 
        console.log(a);
@@ -57,9 +57,32 @@ function gerarElogio()
     {
         document.getElementById("elogios_p").innerHTML = "Seu cabelo é lindo, consegue te deixar mais linda do que já é, não sei elogiar cabelo muito bem pq não conheço muito de vabelo ofdisahufa mas sou apaixonado por ele também";
     }
-    if(a == 13)
+    if(a == 14)
     {
-        document.getElementById("elogios_p").innerHTML = "Seu cabelo é lindo, consegue te deixar mais linda do que já é, não sei elogiar cabelo muito bem pq não conheço muito de vabelo ofdisahufa mas sou apaixonado por ele também";
+        document.getElementById("elogios_p").innerHTML = "Estar com você é incrivel, tão incrivel que quero estar minha vida inteira com você, morar com você, acordar todos os dias ao seu lado, pq só estou completo quando estou com você!";
     }
-
+    if(a == 15)
+    {
+        document.getElementById("elogios_p").innerHTML = "Estar com você é incrivel, tão incrivel que quero estar minha vida inteira com você, morar com você, acordar todos os dias ao seu lado, pq só estou completo quando estou com você!";
+    }
+    if(a == 16)
+    {
+        document.getElementById("elogios_p").innerHTML = "Você engraçada (mesmo eu sendo mais), seu senso de humor é algo incrivel para mim, o seu sarcasmo, você zoar as pessoas, é algo engraçado demais";
+    }
+    if(a == 17)
+    {
+        document.getElementById("elogios_p").innerHTML = "Você é esforçada, estuda para caralho, sempre estudou, e é capaz de muitoooo, irá atingir todos os seus objetivos pela sua capacidade, inteligencia e esforço, isso é algo maravilhoso em você!";
+    }
+    if(a == 18)
+    {
+        document.getElementById("elogios_p").innerHTML = "Você é forte demais, você é muito forte mesmo, luta e vence suas batalhas, mesmo elas sendo dificeis, e saiba que nunca estará sozinha, sempre estarei com você!";
+    }
+    if(a == 19)
+    {
+        document.getElementById("elogios_p").innerHTML = "Você é incrivel, simplesmente incrivel, em todos os sentidos da vida, você é demais, eu admiro você mais do que já admirei qualquer outro, tenho orgulho de você!";
+    }
+    if(a == 20)
+    {
+        document.getElementById("elogios_p").innerHTML = "Por todos os elogios que já te fiz, por tudo o que vc é, por todos os elogios que escrevi aqui, você é o amor da minha vida!";
+    }
 }
