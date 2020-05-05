@@ -18,6 +18,9 @@ class Index(View):
 
 
 def login_index(request):
+    template_name = 'Elogio/index.html'
+    if request.user.is_authenticated:
+        return render(request, template_name)
     if request.method != 'POST':
         return render(request, 'Elogio/login.html')
 

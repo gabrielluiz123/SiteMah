@@ -26,7 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Agenda" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -53,6 +53,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="448" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588701066849" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588713488980">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588713488980" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1588701289826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
