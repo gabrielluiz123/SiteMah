@@ -22,4 +22,5 @@ urlpatterns = [
     path('login/', views.login, name='login'),
     path('logout/', views.login, name='logout'),
     path('home/', views.Index.as_view(), name='index'),
+    path('comments/', views.PostDetalhes.as_view(), name='post_detalhes'),
 ]

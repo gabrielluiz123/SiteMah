@@ -1,3 +1,10 @@
 from django.contrib import admin
+from .models import Elogio
 
-# Register your models here.
+
+class ElogioAdmin(admin.ModelAdmin):
+    list_display = ('id', 'nome', 'comentario')
+    list_display_links = ('id', 'nome',)
+
+
+admin.site.register(Elogio, ElogioAdmin)
