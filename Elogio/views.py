@@ -38,7 +38,7 @@ def login(request):
 
     if not user:
         messages.error(request, 'Usuário ou senha inválidos.')
-        return render(request, 'accounts/login.html')
+        return render(request, 'Elogio/login.html')
     else:
         auth.login(request, user)
         messages.success(request, 'Você fez login com sucesso.')
