@@ -28,8 +28,11 @@ def logout(request):
 
 
 def login(request):
+    template_name = 'Elogio/index.html'
     if request.method != 'POST':
         return render(request, 'Elogio/login.html')
+    if request.user.is_authenticated:
+        return render(request, template_name)
 
     usuario = request.POST.get('usuario')
     senha = request.POST.get('senha')
